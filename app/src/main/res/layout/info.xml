@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:background="@drawable/infotitle"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/white">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:background="@drawable/infob1"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:background="@drawable/infob2"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:background="@drawable/infob3"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:background="@drawable/infob4"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:background="@drawable/infob5"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/infob6"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck"
+                android:background="@drawable/infob7"/>
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/infob8"
+
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/infob9"
+
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/infob10"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:text="" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/infounder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/infounder"
+            android:text=""
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_weight="3"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="   건의 제목을 입력하세요"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:background="@drawable/pack3"/>
+
+
+    <EditText
+        android:layout_weight="6"
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="    건의 내용을 입력하세요"
+        android:textColorHint="@color/black"
+        android:background="@drawable/pack4"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="저장"
+        android:textSize="20pt"
+        android:background="@color/material_dynamic_secondary50"
+        />
+
+
+</LinearLayout>

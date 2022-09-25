@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="2"
+        android:text="TextView"
+
+        android:background="@drawable/pack1"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="8"
+        android:text="TextView"
+        android:background="@drawable/pack2"
+        android:textColor="@color/black"/>
+</LinearLayout>
