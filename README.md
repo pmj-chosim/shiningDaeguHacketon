@@ -56,3 +56,6 @@ https://youtu.be/2Reik3DYf0A
 
 ### 8. 결과
 장려상 수상
+![image](https://github.com/pmj-chosim/shiningDaeguHacketon2022/assets/114579651/fd22096c-4d2e-4470-b47d-499e7ff92cc9)
+
+
